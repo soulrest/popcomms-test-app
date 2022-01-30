@@ -7,10 +7,12 @@ import Users from "./components/Users";
 import ContactInfo from "./components/ContactInfo";
 import { fetchUsers } from "./fetchAPI";
 
-const App = () => {
-  /*
-  
+/*
+  In general, only the css took a bit long time for me to make app looks well. Implementation for all functionality took around 1 hour. Hope The implementation is not so bad. 
+  Thank very much 😊
   */
+
+const App = () => {
   const [users, setUsers] = useState([]);
   const [singleUser, setSingleUser] = useState(null);
   const [inputValue, setInputValue] = useState("");
