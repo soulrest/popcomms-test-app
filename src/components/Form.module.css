@@ -1,0 +1,63 @@
+input,
+select {
+  width: 80%;
+  background: white;
+  border: 1px solid rgba(160, 159, 159, 0.452);
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+}
+
+input {
+  padding-left: 3.2rem;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='20' viewBox='0 0 25 25' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 1rem;
+  color: grey;
+}
+
+.form-container {
+  background-color: rgb(235, 235, 235);
+  padding: 1.3rem;
+}
+
+.form-container label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.form-container label input:focus {
+  background: #fff;
+  user-select: none;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  outline: none;
+}
+
+.icon-inside {
+  position: relative;
+  width: 80%;
+}
+
+.icon-inside input {
+  width: 100%;
+}
+
+.icon-inside svg {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  min-height: 1.8rem;
+  color: rgba(51, 51, 51, 0.5);
+}
